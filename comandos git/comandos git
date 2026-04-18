@@ -1,0 +1,54 @@
+El flujo típico para registrar y compartir cambios:
+
+Editás archivos en tu proyecto.
+
+git init (por unica vez para iniciar git en tu proyecto)
+
+git add . agrega cambios al área de preparación.
+
+git commit -m "nombre del cambio" crea un snapshot en el historial.
+
+git push envía los commits al repositorio remoto (Github).
+
+Subir cambios a GitHub: Después de hacer algunos cambios y hacer commits, podés subirlos a GitHub con el comando:
+
+git push -u origin main
+
+
+--------------------------------------------
+
+git init
+
+Convierte la carpeta actual en un repositorio Git local
+
+git clone URL
+
+Descarga una copia de un repositorio remoto
+
+git status
+
+Muestra el estado actual del repositorio
+
+git add archivo.txt
+
+Añade un archivo al área de preparación
+
+git commit -m "mensaje"
+
+Crea un nuevo commit con los cambios preparados
+
+git push origin main
+
+Envía los commits locales al repositorio remoto
+
+git pull origin main
+
+Obtiene y fusiona cambios del repositorio remoto
+
+git branch nueva-rama
+
+Crea una nueva rama
+
+git checkout nueva-rama
+
+Cambia a la rama especificada

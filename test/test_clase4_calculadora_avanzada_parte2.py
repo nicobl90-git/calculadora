@@ -22,8 +22,10 @@ pytest -m exception    # solo tests “dividir” con error
 Genera el informe con: pytest --html=report.html.
 
 Sube report.html junto con tu Pull Request.
-"""
 
+#Para una PR, tenemos que cambiar de rama, hacer un commit con los cambios, subir la rama a GitHub y luego crear el Pull Request desde GitHub.
+
+"""
 
 
 

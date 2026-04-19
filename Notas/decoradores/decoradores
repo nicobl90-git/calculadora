@@ -1,0 +1,21 @@
+Decorador
+
+Función
+
+@pytest.fixture
+
+Declarar fixtures reutilizables para preparar datos u objetos
+Son funciones especiales que preparan datos, objetos o estado antes de un test y opcionalmente los limpian después.
+
+
+@pytest.mark.parametrize
+
+Ejecutar un test con múltiples combinaciones de datos
+Es una herramienta de pytest que te permite ejecutar el mismo test varias veces con diferentes valores de entrada, de forma simple y clara.
+Usamos @pytest.mark.parametrize para probar la misma función con múltiples combinaciones de datos sin repetir código.
+
+
+@pytest.mark.<etiqueta>
+
+Agrupar tests para filtrarlos o alterar su ejecución
+Los markers en pytest son etiquetas que se pueden aplicar a tests para:

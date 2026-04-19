@@ -15,6 +15,11 @@ Subir cambios a GitHub: Después de hacer algunos cambios y hacer commits, podé
 git push -u origin main
 
 
+Vincular repositorio local con GitHub: Abrí tu terminal y escribí este comando para vincular tu repositorio local con el que creaste en GitHub:
+
+git remote add origin https://github.com/tu-usuario/proyecto.git
+
+
 --------------------------------------------
 
 git init
@@ -52,3 +57,10 @@ Crea una nueva rama
 git checkout nueva-rama
 
 Cambia a la rama especificada
+
+
+---------------------
+
+git add . Marca todos los archivos modificados para guardar
+git commit -m "..."Guarda los cambios localmente con un mensaje
+git push origin master  Sube los cambios a GitHub

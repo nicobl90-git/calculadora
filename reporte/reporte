@@ -1,0 +1,6 @@
+pytest --html=report.html --self-contained-html
+
+--html=report.html establece el nombre del archivo.
+
+--self-contained-html incrusta CSS y JS, de modo que el archivo funcione sin recursos externos.
+

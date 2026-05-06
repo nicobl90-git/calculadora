@@ -1,0 +1,14 @@
+const selectores = [
+  "#user-name",
+  "#password",
+  "#login-button"
+];
+
+selectores.forEach(selector => {
+  const elemento = document.querySelector(selector);
+  if (elemento) {
+    console.log(`"${selector}" → encontrado:`, elemento);
+  } else {
+    console.warn(`"${selector}" → NO encontrado`);
+  }
+});

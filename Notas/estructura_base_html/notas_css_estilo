@@ -1,0 +1,13 @@
+selector{
+ propiedad:valor;
+}
+
+
+
+body              → el fondo de toda la página
+h1                → el título
+p                 → el párrafo
+#primer-numero    → input número 1
+#segundo-numero   → input número 2
+.btn .btn-operador → los 4 botones
+#resultado        → el div de resultado

@@ -1,0 +1,27 @@
+Selector de Elemento
+
+Selecciona todos los elementos del tipo especificado.
+
+p {
+  color: blue;
+}
+
+
+
+Selector de Clase
+
+Selecciona elementos con una clase específica.
+
+.destacado {
+  font-weight: bold;
+}
+
+
+
+Selector de ID
+
+Selecciona un elemento único con el ID especificado.
+
+#cabecera {
+  background: gray;
+}

@@ -1,0 +1,38 @@
+"""
+Objetivos:
+
+Construir la vista estática de la calculadora (HTML + CSS externo).
+
+Etiquetar cada campo con identificadores estables (id, name, clases semánticas).
+
+Practicar DevTools: inspeccionar elementos, copiar selectores y comprobar que apunten a unívocos.
+
+Crear selectors.md — tu futura hoja de ruta para los tests UI.
+
+"""
+
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="UTF-8" />
+    <title>Tarea Clase 5</title> 
+    <link rel="stylesheet" href="estilos.css" />
+   </head>
+ <body>
+    <h1>Clase 5: Calculadora Estática</h1>
+    <p>Consigna de la clase 5</p>
+
+    <input id="primer-numero" type="number" placeholder="Ingrese el primer número" />
+    <input id="segundo-numero" type="number" placeholder="Ingrese el segundo número" />
+
+    <button id="boton-suma" class="btn btn-operador">+</button>
+    <button id="boton-resta" class="btn btn-operador">-</button>
+    <button id="boton-multiplicar" class="btn btn-operador">x</button>
+    <button id="boton-dividir" class="btn btn-operador">/</button>
+
+    
+    <div id="resultado"></div>
+
+
+ </body>
+</html>

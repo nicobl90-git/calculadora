@@ -1,0 +1,61 @@
+1) Visita una demo pública: SauceDemo (https://www.saucedemo.com/) o HerokuApp (https://the-internet.herokuapp.com/login).
+
+2) Obtén un selector CSS y un XPath relativo para:
+
+input usuario
+#user-name
+//div/input[@id="user-name"]
+
+input contraseña
+#password
+//div/input[@id="password"]
+
+(extra) botón login/guardar.
+#login-button
+//input[@id="login-button"]
+
+
+3) Prueba cada selector en la consola: document.querySelector() y $x().
+
+document.querySelector("#user-name")
+<input class=​"input_error form_input" placeholder=​"Username" type=​"text" data-test=​"username" id=​"user-name" name=​"user-name" autocorrect=​"off" autocapitalize=​"none" value>​
+
+$x("//div/input[@id='user-name']")
+[input#user-name.input_error.form_input]
+
+
+
+document.querySelector("#password")
+<input class=​"input_error form_input" placeholder=​"Password" type=​"password" data-test=​"password" id=​"password" name=​"password" autocorrect=​"off" autocapitalize=​"none" value>​
+
+$x("//div/input[@id='password']")
+[input#password.input_error.form_input]
+
+
+
+document.querySelector("#login-button")
+<input type=​"submit" class=​"submit-button btn_action" data-test=​"login-button" id=​"login-button" name=​"login-button" value=​"Login">​
+
+$x("//input[@id='login-button']")
+[input#login-button.submit-button.btn_action]
+
+
+
+4) Crea selectores-talento.md con la tabla
+
+5) Crear un snippet de test masivo para  verificar rápidamente si tus selectores CSS apuntan a los elementos correctos
+
+const selectores = [
+  "#user-name",
+  "#password",
+  "#login-button"
+];
+
+selectores.forEach(selector => {
+  const elemento = document.querySelector(selector);
+  if (elemento) {
+    console.log(`"${selector}" → encontrado:`, elemento);
+  } else {
+    console.warn(`"${selector}" → NO encontrado`);
+  }
+});

@@ -1,0 +1,7 @@
+//elemento[@atributo="valor"]
+Parte
+Significado
+// Buscá en cualquier parte del documento
+* Cualquier tipo de elemento (o podés poner input, button, etc.)
+@ Indica que lo que sigue es un atributo
+"user-name" El valor exacto del atributo
